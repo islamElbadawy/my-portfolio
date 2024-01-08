@@ -21,8 +21,10 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.9",
+    "@iconscout/unicons": "^4.0.8",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
+    "swiper": "^11.0.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },
