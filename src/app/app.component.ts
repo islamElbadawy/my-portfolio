@@ -12,7 +12,11 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
 import { ServicesComponent } from './components/services/services.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
+injectSpeedInsights({
+  framework: 'angular',
+});
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -34,6 +38,4 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {
-  title = 'Islam Elbadawy';
-}
+export class AppComponent {}
